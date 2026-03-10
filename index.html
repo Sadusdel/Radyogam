@@ -2,31 +2,27 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <title>Oral Diagnoz AI | Web</title>
+    <title>Oral Diagnoz AI</title>
     <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
     <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+
+    <py-config>
+        packages = ["pandas"]
+    </py-config>
 </head>
 <body>
-    <h1>Oral Diagnoz AI - Klinik Karar Destek</h1>
-    <div id="input-area">
-        <input type="text" id="yas" placeholder="Yaş Aralığı">
-        <input type="text" id="semptom" placeholder="Semptomlar">
-        <button py-click="analiz_et">Analizi Başlat</button>
-    </div>
-    <div id="results"></div>
+    <h1>Oral Diagnoz AI Analiz Sistemi</h1>
+    <div id="output"></div>
 
-    <section class="pyscript">
-        <script type="py">
-            import pandas as pd
-            from pyscript import display, document
+    <script type="py">
+        import pandas as pd
+        from pyscript import display
 
-            # CSV verilerini burada tanımlayabilir veya fetch ile çekebilirsin
-            def analiz_et(event):
-                yas = document.querySelector("#yas").value
-                # ... Senin arayuz.py içindeki mantığın buraya gelecek ...
-                result_div = document.querySelector("#results")
-                result_div.innerText = f"Analiz ediliyor: {yas}"
-        </script>
-    </section>
+        # Test için bir dataframe oluşturalım
+        data = {"Tanı": ["Kist", "Tümör"], "Olasılık": [85, 12]}
+        df = pd.DataFrame(data)
+        
+        display(df, target="output")
+    </script>
 </body>
 </html>
