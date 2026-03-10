@@ -1,0 +1,22 @@
+//Her bir  sayfayı ayrı ayrı .csv dosyası olarak indirdim
+//"Yumuşak Doku Kaynaklı Kistler": "Yumusak_Doku_Kistler.csv",
+            "Non-Odontojenik Kistler": "Non_Odontojenik_Kistler.csv",
+            "Odontojenik Kistler": "Odontojenik_Kistler.csv",
+            "Çenede Görülen Enfeksiyonlar": "Cenede_Enfeksiyonlar.csv",
+            "Periapikal Enfeksiyonlar": "Periapikal_Enfeksiyonlar.csv",
+            "Benign Odontojenik Tümörler": "Benign_Odontojenik_Tumorler.csv",
+            "Benign Non-Odontojenik Kistler": "Benign_Non_Odontojenik_Kistler.csv",
+            "Malign Tümörler": "Malign_Tumorler.csv",
+            "Sarkomlar": "Sarkomlar.csv",
+            "Hematolojik Maligniteler": "Hematolojik_Maligniteler.csv",
+            "Endokrin Bozukluklar": "Endokrin_Bozukluklar.csv",
+            "Metabolik Kemik Hastalıkları": "Metabolik_Kemik.csv",
+            "Sistemik Bozukluklar": "Sistemik_Bozukluklar.csv",
+            "Distrofik Kalsifikasyonlar": "Distrofik_Kalsifikasyon.csv",
+            "İdiyopatik Kalsifikasyonlar": "Idiyopatik_Kalsifikasyon.csv",
+            "Diğer Kalsifikasyonlar": "Diger_Kalsifikasyon.csv",
+            "Beyaz Lezyonlar": "Beyaz_Lezyonlar.csv",
+            "Kırmızı Lezyonlar": "Kirmizi_Lezyonlar.csv",
+            "Oral Pigmentasyonlar": "Oral_Pigmentasyonlar.csv",
+            "Non-Odontojen Ağrı": "Non_Odontojen_Agri.csv"
+olarak isimlendirmeler yaptım.
